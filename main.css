@@ -47,6 +47,14 @@ img {
     align-items: center;
 }
 
+.queue-list {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .queue-link {
     color: #9e9aa8;
     font-size: 15px;
@@ -123,6 +131,7 @@ img {
 .links-section {
     padding-top: 91px;
     padding-bottom: 234px;
+    position: relative;
     background-image: url(./images/working_with_computer.svg);
     background-repeat: no-repeat;
     background-position: calc(50% + 474px) calc(50% - 75px);
@@ -136,7 +145,7 @@ img {
     border-radius: 10px;
     background-image: url(./images/Path2.svg);
     position: absolute;
-    top: 716px;
+    bottom: -80px;
 }
 
 .shorten {
@@ -166,6 +175,7 @@ img {
     text-decoration-line: none;
     padding: 18px 40px 16px;
     border-radius: 10px;
+    border: none;
 }
 
 .hero {
@@ -378,5 +388,3 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
-
